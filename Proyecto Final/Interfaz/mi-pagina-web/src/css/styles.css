@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Add your custom styles here */
+
+/* Example styles for the product list */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Example styles for the cart */
+.cart {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cart-item p {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.cart-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Example styles for the order form */
+.order-form {
+  margin-top: 1rem;
+}
+
+.order-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.order-form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #0056b3;
+}

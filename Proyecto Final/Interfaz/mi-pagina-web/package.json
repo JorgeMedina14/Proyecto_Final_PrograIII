@@ -1,0 +1,19 @@
+{
+  "name": "mi-pagina-web",
+  "version": "1.0.0",
+  "description": "Página web que utiliza Tailwind CSS para mostrar una lista de productos y un carrito de compras.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ]
+}
